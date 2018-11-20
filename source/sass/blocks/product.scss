@@ -1,0 +1,37 @@
+.product {
+  margin-bottom: 37px;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+}
+
+.product__img {
+  width: 207px;
+  height: 207px;
+  border: 8px solid $bgr-light;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+.product__title {
+  @include title-text;
+  margin: 0 auto;
+  padding: 0 0 18px 0;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.product__link {
+  color: $bgr-light;
+  border: 2px solid;
+  border-radius: 5px;
+  border-color: $border-light;
+
+  &:hover {
+    border-color: $accent-light;
+    color: $accent-light;
+  }
+}

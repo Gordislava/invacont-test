@@ -1,0 +1,17 @@
+.main-nav {
+  width: 40%;
+}
+
+.main-nav__list {
+  @include list-norm;
+  margin: 0 auto;
+  margin-top: 194px;
+  margin-bottom: 47px;
+  position: relative;
+  z-index: 3;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 510px;
+  justify-content: space-between;
+  box-sizing: border-box;
+}

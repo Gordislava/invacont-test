@@ -1,0 +1,39 @@
+.page-footer {
+  width: auto;
+  background-color: $bgr-light;
+}
+
+.page-footer__list {
+  @include list-norm;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 0 auto;
+  max-width: 510px;
+  justify-content: space-between;
+}
+
+.page-footer--bottom {
+  width: auto;
+  background-color: $bgr-dark;
+  color: #919191;
+}
+
+.page-footer__wrapper {
+  width: 76%;
+  max-width: 975px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.page-footer__wrapper p {
+  margin: 0;
+  font: {
+    family: "ArialMT", sans-serif;
+    weight: normal;
+    size: 12px;
+  }
+  line-height: 20px;
+  padding: 27px 0;
+}

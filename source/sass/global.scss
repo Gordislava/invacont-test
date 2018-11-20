@@ -7,3 +7,51 @@ body {
 a {
   text-decoration: none;
 }
+
+@font-face {
+  font-weight: bold;
+  font-family: "Nimbus";
+  font-style: normal;
+  src: url("../fonts/NIMBSTB.ttf") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-weight: normal;
+  font-family: "HelveticaMedium";
+  font-style: normal;
+  src: url("../fonts/HelveticaNeueCyr-Medium.otf") format("opentype");
+  font-display: swap;
+}
+
+@font-face {
+  font-weight: 900;
+  font-family: "HelveticaBlack";
+  font-style: normal;
+  src: url("../fonts/HelveticaNeueCyr-Black.otf") format("opentype");
+  font-display: swap;
+}
+
+@font-face {
+  font-weight: 300;
+  font-family: "HelveticaLight";
+  font-style: normal;
+  src: url("../fonts/HelveticaNeueCyr-Light.otf") format("opentype");
+  font-display: swap;
+}
+
+@font-face {
+  font-weight: bold;
+  font-family: "HelveticaBold";
+  font-style: normal;
+  src: url("../fonts/HelveticaNeueCyr-bold.otf") format("opentype");
+  font-display: swap;
+}
+
+@font-face {
+  font-weight: bold;
+  font-family: "ArialMT";
+  font-style: normal;
+  src: url("../fonts/ArialMT.otf") format("opentype");
+  font-display: swap;
+}

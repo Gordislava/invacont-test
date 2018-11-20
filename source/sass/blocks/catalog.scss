@@ -1,0 +1,19 @@
+.catalog {
+  width: auto;
+  background-color: $bgr-color;
+  border-top: 4px solid $accent-opposite;
+}
+
+.catalog__list {
+  @include list-norm;
+  margin: 0 auto;
+  width: 70%;
+  max-width: 891px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  margin-top: -117px;
+  padding-bottom: 16px;
+}

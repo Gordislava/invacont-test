@@ -1,0 +1,21 @@
+.header-text {
+  width: 75%;
+  max-width: 960px;
+  background-color: rgba(38, 49, 28, 0.7);
+  border-radius: 5px;
+  margin-bottom: 240px;
+}
+
+.header-text__title {
+  @include title-text;
+  text-align: center;
+}
+
+.header-text__descr {
+  @include basic-text;
+  color: $bgr-light;
+  margin: 0 auto;
+  padding: 0 44px 34px 44px;
+  text-align: center;
+  box-sizing: border-box;
+}

@@ -1,0 +1,27 @@
+// .logo {
+//   width: 80%;
+//   height: 452px;
+//   margin: 0 auto;
+//   background-image: url("../../img/log.png");
+//   background-repeat: no-repeat;
+//   background-size: contain;
+//   background-position: center;
+//   position: relative;
+//   z-index: 10;
+// }
+
+// .logo-wrap {
+//   width: 100%;
+// }
+
+
+.logo {
+  position: absolute;
+  top: 0;
+  z-index: 4;
+  padding-top: 15px;
+  display: block;
+  width: 100%;
+  max-width: 923px;
+  height: auto;
+}
