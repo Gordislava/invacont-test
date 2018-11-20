@@ -32,3 +32,48 @@
     color: $accent-light;
   }
 }
+
+@media (max-width: $tablet) {
+  .menu__item--light {
+    font-size: 16px;
+    line-height: 35px;
+  }
+}
+
+@media (max-width: 425px) {
+  .menu__item {
+    display: block;
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid $accent-dark;
+    padding-left: 0;
+    padding-right: 0;
+    background-color: rgba(255, 255, 255, 0.7);
+  }
+
+  .menu__item--light:first-child {
+    border-top-right-radius: 70% 28%;
+    border-top-left-radius: 70% 28%;
+  }
+
+  .main-nav__list {
+    margin-top: 98px;
+  }
+}
+
+@media (max-width: 375px) {
+  .main-nav__list {
+    margin-top: 88px;
+  }
+}
+
+@media (max-width: $mobile) {
+  .menu__item--light:first-child {
+    border-top-right-radius: 70% 21%;
+    border-top-left-radius: 70% 21%;
+  }
+
+  .main-nav__list {
+    margin-top: 77px;
+  }
+}

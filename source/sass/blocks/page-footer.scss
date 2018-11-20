@@ -37,3 +37,19 @@
   line-height: 20px;
   padding: 27px 0;
 }
+
+@media (max-width: 425px) {
+  .page-footer__wrapper {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+
+  .page-footer__wrapper p {
+    padding: 10px 0;
+  }
+
+  .header-text__title {
+    border-bottom: 1px solid $text-gray;
+  }
+}

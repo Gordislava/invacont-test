@@ -4,8 +4,6 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-
-  min-height: 870px;
 }
 
 .page-header__wrapper {
@@ -33,4 +31,18 @@
   margin-bottom: 20px;
   padding: 0;
   margin-top: 0;
+}
+
+@media (max-width: $tablet) {
+  .page-header__title {
+    font-size: 51px;
+    width: 80%;
+  }
+}
+
+@media (max-width: 425px) {
+  .page-header__title {
+    width: 100%;
+    font-size: 42px;
+  }
 }

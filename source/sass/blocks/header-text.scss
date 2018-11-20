@@ -19,3 +19,9 @@
   text-align: center;
   box-sizing: border-box;
 }
+
+@media (max-width: 425px) {
+  .header-text {
+    width: 100%;
+  }
+}
