@@ -12,7 +12,7 @@ a {
   font-weight: bold;
   font-family: "Nimbus";
   font-style: normal;
-  src: url("../fonts/NIMBSTB.ttf") format("truetype");
+  src: url("../fonts/NIMBSTB.woff") format("woff");
   font-display: swap;
 }
 
@@ -20,7 +20,7 @@ a {
   font-weight: normal;
   font-family: "HelveticaMedium";
   font-style: normal;
-  src: url("../fonts/HelveticaNeueCyr-Medium.otf") format("opentype");
+  src: url("../fonts/HelveticaNeueCyr-Medium.woff") format("woff");
   font-display: swap;
 }
 
@@ -28,7 +28,7 @@ a {
   font-weight: 900;
   font-family: "HelveticaBlack";
   font-style: normal;
-  src: url("../fonts/HelveticaNeueCyr-Black.otf") format("opentype");
+  src: url("../fonts/HelveticaNeueCyr-Black.woff") format("woff");
   font-display: swap;
 }
 
@@ -36,7 +36,7 @@ a {
   font-weight: 300;
   font-family: "HelveticaLight";
   font-style: normal;
-  src: url("../fonts/HelveticaNeueCyr-Light.otf") format("opentype");
+  src: url("../fonts/HelveticaNeueCyr-Light.woff") format("woff");
   font-display: swap;
 }
 
@@ -44,7 +44,7 @@ a {
   font-weight: bold;
   font-family: "HelveticaBold";
   font-style: normal;
-  src: url("../fonts/HelveticaNeueCyr-bold.otf") format("opentype");
+  src: url("../fonts/HelveticaNeueCyr-bold.woff") format("woff");
   font-display: swap;
 }
 
@@ -52,6 +52,6 @@ a {
   font-weight: bold;
   font-family: "ArialMT";
   font-style: normal;
-  src: url("../fonts/ArialMT.otf") format("opentype");
+  src: url("../../fonts/ArialMT.woff") format("woff");
   font-display: swap;
 }

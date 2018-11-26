@@ -46,7 +46,12 @@
     width: 100%;
     text-align: center;
     border-bottom: 1px solid $accent-dark;
+
     padding-left: 0;
     padding-right: 0;
+  }
+
+  .menu__item--light {
+    background-color: $accent-dark;
   }
 }
